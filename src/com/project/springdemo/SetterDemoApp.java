@@ -12,6 +12,9 @@ public class SetterDemoApp {
 		System.out.println(coach.getDailyWorkout());
 		System.out.println(coach.getDailyFortune());
 		//close the context
+		//call our literal setter methods
+		System.out.println(coach.getEmailAddress());
+		System.out.println(coach.getTeam()); 
 		context.close();
 	}
 }
